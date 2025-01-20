@@ -3,3 +3,61 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    color: #fff;
+}
+
+img {
+    width: 25%;
+}
+
+/* Navbar */
+.navbar {
+    background: #1F2937;
+    padding: 20px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .main-menu ul {
+    display: flex;
+}
+
+.navbar ul li a {
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.main-menu ul li a:hover {
+    background-color: #2D3A4B;
+}
+
+/* Hero */
+.main {
+    background: #1F2937;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
