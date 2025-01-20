@@ -52,7 +52,7 @@ img {
     background-color: #2D3A4B;
 }
 
-/* Hero */
+/* First Main Section */
 .main {
     background: #1F2937;
     height: 100vh;
@@ -60,4 +60,24 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+/* Second Main Section */
+.main2 {
+    background: brown
+}
+
+/* Third Main Section */
+.main3 {
+    background: #e5e7eb
+}
+
+/* Fourth Main Section */
+.main4 {
+    background: teal
+}
+
+/* Footer */
+.footer {
+    background: #1F2937;
 }
