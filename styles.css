@@ -72,6 +72,12 @@ ul {
     border: none;
     padding: 10px;
     border-radius: 10px;
+    margin-left: -220px;
+    margin-top: 10px;
+}
+
+.sign-up-first-section:hover {
+    background-color: #1e40af;
 }
 
 .content {
@@ -99,4 +105,135 @@ ul {
 
 img {
     margin: 50px;
+}
+
+/* Second Section */
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.blue-box-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 100%;
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.blue-box {
+    border: 2px solid #3882f6;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.blue-box-msg {
+    display: flex;
+    flex-direction: column;
+}
+
+.p2 {
+    text-align: center;
+}
+
+/* Third Section */
+
+.third-section {
+    background: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-name {
+    font-size: 24px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: right;
+    margin-right: 500px;
+}
+
+.quote-block {
+    margin: 50px;
+    padding: 50px;
+}
+
+/* Fourth Section */
+
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.modal-content {
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    width: 60%;
+}
+
+.modal-content-left {
+    width: 80%;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal-content-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.sign-up-modal {
+    color: #ffffff;
+}
+
+.sign-up-modal-button {
+    background-color: #3882f6;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    font-weight: 900;
+}
+
+/* Footer */
+.footer {
+    background: #1f2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-size: 18px;
+    color: #ffffff;
 }
